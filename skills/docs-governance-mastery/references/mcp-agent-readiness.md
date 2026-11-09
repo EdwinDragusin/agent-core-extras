@@ -49,7 +49,7 @@ El archivo `AGENTS.md` funciona como el manual de instrucciones del agente para 
 - **Regla:** Debe declarar la jerarquia y fuente de verdad (source of truth) para cada tipo de informacion.
 
 > [!IMPORTANT]
-> Se deben contemplar los archivos de gobierno existentes en el proyecto: [AGENTS.md global](file:///c:/Users/edenr/Documents/examen/.agents/AGENTS.md) y [AGENTS.md del vault](file:///c:/Users/edenr/Documents/examen/docs/AGENTS.md).
+> Se deben contemplar los archivos de gobierno existentes en el proyecto: `.agents/AGENTS.md` y `docs/AGENTS.md`.
 
 ## 4. Paradigma LLM Wiki (Karpathy)
 
@@ -68,7 +68,7 @@ La arquitectura y uniformidad del vault impactan en la destreza del agente para 
 
 - **Encabezados claros:** Fomentan un `heading-aware chunking` preciso para el contexto.
 - **Frontmatter rico:** Otorga la capacidad de aplicar filtros certeros a la recuperacion (ej. recuperar solo ADRs en estado "aprobado").
-- **Wikilinks densos:** Apoyan el razonamiento multietapa (multi-hop reasoning) al hilar notas, por ejemplo, [DS-CU-001](file:///c:/Users/edenr/Documents/examen/docs/diseno/DS-CU-001.md) vinculado internamente hacia [CU-001](file:///c:/Users/edenr/Documents/examen/docs/requerimientos/CU-001.md).
+- **Wikilinks densos:** Apoyan el razonamiento multietapa (multi-hop reasoning) al hilar notas, por ejemplo, `docs/diseno/DS-CU-001.md` vinculado internamente hacia `docs/requerimientos/CU-001.md` mediante `[[CU-001]]`.
 - **Etiquetas consistentes:** Mejoran la busqueda de categorias homogeneas en toda la coleccion.
 
 **Herramientas MCP aplicables:** 
@@ -79,9 +79,9 @@ La arquitectura y uniformidad del vault impactan en la destreza del agente para 
 
 Las siguientes comprobaciones son obligatorias y verificables al ejecutar inspecciones sobre el vault:
 
-- **Revision de Frontmatter:** Contar y listar archivos en [docs](file:///c:/Users/edenr/Documents/examen/docs) desprovistos del bloque de frontmatter dictado.
+- **Revision de Frontmatter:** Contar y listar archivos en `docs/` desprovistos del bloque de frontmatter dictado.
 - **Auditoria de Encabezados (Gaps):** Contar y listar archivos con saltos no secuenciales en los encabezados (ej. de un `H1` a un `H3`).
 - **Verificacion de Titulos:** Contar y listar archivos que exhiban multiples `H1` en un solo documento (solamente debe haber un titulo).
-- **Conformidad de Gobierno:** Verificar que [AGENTS.md](file:///c:/Users/edenr/Documents/examen/docs/AGENTS.md) exista y utilice un lenguaje prescriptivo vinculante para el agente.
+- **Conformidad de Gobierno:** Verificar que `docs/AGENTS.md` exista y utilice un lenguaje prescriptivo vinculante para el agente.
 - **Cohesion Lexica:** Verificar que la taxonomia de los `tags` (etiquetas) no posea duplicidades de nomenclatura o faltas de ortografia.
 - **Validacion de Grafo:** Confirmar que los wikilinks declarados en el frontmatter se resuelvan exitosamente en otros documentos fisicos.
