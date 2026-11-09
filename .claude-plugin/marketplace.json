@@ -3,6 +3,9 @@
   "owner": {
     "name": "Edwin Dragusin"
   },
+  "allowCrossMarketplaceDependenciesOn": [
+    "agent-core-skills-marketplace"
+  ],
   "plugins": [
     {
       "name": "agent-core-extras",
