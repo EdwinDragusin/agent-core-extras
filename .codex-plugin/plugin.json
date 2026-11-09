@@ -1,0 +1,25 @@
+{
+  "name": "agent-core-extras",
+  "version": "1.0.0",
+  "description": "Framework con 8 subagentes SDLC, pipeline de 5 fases, integracion MCP y 6 skills de metodologia y herramientas.",
+  "author": {
+    "name": "Edwin Dragusin",
+    "url": "https://github.com/EdwinDragusin"
+  },
+  "homepage": "https://github.com/EdwinDragusin/agent-core-extras",
+  "repository": "https://github.com/EdwinDragusin/agent-core-extras",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Core Extras",
+    "shortDescription": "Framework con 8 subagentes SDLC, protocolo MCP y 6 skills tecnicas.",
+    "longDescription": "Pipeline SDLC en 5 fases con 8 subagentes especializados, protocolo MCP y 6 skills de ingenieria.",
+    "developerName": "Edwin Dragusin",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ]
+  }
+}

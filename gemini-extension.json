@@ -1,0 +1,6 @@
+{
+  "name": "agent-core-extras",
+  "description": "Framework con 8 subagentes SDLC, pipeline de 5 fases, integracion MCP y 6 skills de metodologia y herramientas.",
+  "version": "1.0.0",
+  "contextFileName": "rules/AGENTS.md"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "agent-core-extras-marketplace",
+  "owner": {
+    "name": "Edwin Dragusin"
+  },
+  "plugins": [
+    {
+      "name": "agent-core-extras",
+      "source": "./",
+      "description": "Framework con 8 subagentes SDLC, pipeline de 5 fases, integracion MCP y 6 skills de metodologia y herramientas."
+    }
+  ]
+}
